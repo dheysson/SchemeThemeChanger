@@ -1,0 +1,10 @@
+{
+    "name": "Theme Changer for Nexus Mods",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": ["activeTab", "scripting", "storage"],
+    "host_permissions": ["<all_urls>"]
+}
